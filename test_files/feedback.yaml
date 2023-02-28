@@ -1,0 +1,119 @@
+-
+    name: 点击首页,action=5
+    request:
+        url: behavior/feedback
+        method: post
+        data: {"organizationId":12716,"contentType":23,"contentList":[{"id":"","action":5}]}
+        headers:
+            Authorization-QS: ${pxs_token}
+            User-Agent-QS: QSXT
+            Content-Type: application/json
+            Connection: keep-alive
+            Accept: application/json
+            User-Agent: ELearningQSXT/22.12.1 (iPhone; iOS 13.3; Scale/2.00)
+    validate:
+        - eq:
+            hr: 0
+            message: 成功
+-
+    name: 匿名用户点击首页,action=5
+    request:
+        url: behavior/feedback
+        method: post
+        data: {"organizationId":12716,"contentType":23,"contentList":[{"id":"","action":5}]}
+        headers:
+            Authorization-QS: ${anon_token}
+            User-Agent-QS: QSXT
+            Content-Type: application/json
+            Connection: keep-alive
+            Accept: application/json
+            User-Agent: ELearningQSXT/22.12.1 (iPhone; iOS 13.3; Scale/2.00)
+    validate:
+        - eq:
+            hr: 0
+            message: 成功
+-
+    name: 点击首页,action=16
+    request:
+        url: behavior/feedback
+        method: post
+        data: {"organizationId":12716,"contentType":23,"contentList":[{"id":"","action":16}]}
+        headers:
+            Authorization-QS: ${pxs_token}
+            User-Agent-QS: QSXT
+            Content-Type: application/json
+            Connection: keep-alive
+            Accept: application/json
+            User-Agent: ELearningQSXT/22.12.1 (iPhone; iOS 13.3; Scale/2.00)
+    validate:
+        - eq:
+            hr: 0
+            message: 成功
+-
+    name: 点击首页,action=61
+    request:
+        url: behavior/feedback
+        method: post
+        data: {"organizationId":12716,"contentType":23,"contentList":[{"id":"","action":61}]}
+        headers:
+            Authorization-QS: ${pxs_token}
+            User-Agent-QS: QSXT
+            Content-Type: application/json
+            Connection: keep-alive
+            Accept: application/json
+            User-Agent: ELearningQSXT/22.12.1 (iPhone; iOS 13.3; Scale/2.00)
+    validate:
+        - eq:
+            hr: 0
+            message: 成功
+-
+    name: 点击首页,action=62
+    request:
+        url: behavior/feedback
+        method: post
+        data: {"organizationId":12716,"contentType":23,"contentList":[{"id":"","action":62}]}
+        headers:
+            Authorization-QS: ${pxs_token}
+            User-Agent-QS: QSXT
+            Content-Type: application/json
+            Connection: keep-alive
+            Accept: application/json
+            User-Agent: ELearningQSXT/22.12.1 (iPhone; iOS 13.3; Scale/2.00)
+    validate:
+        - eq:
+            hr: 0
+            message: 成功
+-
+    name: 点击首页,action=1
+    request:
+        url: behavior/feedback
+        method: post
+        data: {"organizationId":12716,"contentType":23,"contentList":[{"id":"","action":1}]}
+        headers:
+            Authorization-QS: ${pxs_token}
+            User-Agent-QS: QSXT
+            Content-Type: application/json
+            Connection: keep-alive
+            Accept: application/json
+            User-Agent: ELearningQSXT/22.12.1 (iPhone; iOS 13.3; Scale/2.00)
+    validate:
+        - eq:
+            hr: 0
+            message: 成功
+-
+    name: 点击首页,action=None
+    request:
+        url: behavior/feedback
+        method: post
+        data: {"organizationId":12716,"contentType":23,"contentList":[{"id":"","action":}]}
+        headers:
+            Authorization-QS: ${pxs_token}
+            User-Agent-QS: QSXT
+            Content-Type: application/json
+            Connection: keep-alive
+            Accept: application/json
+            User-Agent: ELearningQSXT/22.12.1 (iPhone; iOS 13.3; Scale/2.00)
+    validate:
+        - eq:
+            hr: -2147463167
+            message: 无效的参数

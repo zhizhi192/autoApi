@@ -1,0 +1,330 @@
+[2023-02-28 09:28:36,288][conftest.py 28][INFO]:
+=========================Test on base url:https://api.qingshuxuetang.com/v22_13/ =========================
+[2023-02-28 09:28:36,288][request_utils.py 24][INFO]:test start：创建匿名用户-Type=1(ios) account/createAnonymous
+[2023-02-28 09:28:36,479][utils.py 36][INFO]:$.hr预期结果是：0
+[2023-02-28 09:28:36,480][utils.py 37][INFO]:$.hr实际结果是：0
+[2023-02-28 09:28:36,480][utils.py 36][INFO]:$.message预期结果是：成功
+[2023-02-28 09:28:36,480][utils.py 37][INFO]:$.message实际结果是：成功
+[2023-02-28 09:28:36,481][test_anonymous.py 28][INFO]:test end:创建匿名用户-Type=1(ios)
+[2023-02-28 09:28:36,484][request_utils.py 24][INFO]:test start：创建匿名用户-Type=2(android) account/createAnonymous
+[2023-02-28 09:28:36,543][utils.py 36][INFO]:$.hr预期结果是：0
+[2023-02-28 09:28:36,543][utils.py 37][INFO]:$.hr实际结果是：0
+[2023-02-28 09:28:36,543][utils.py 36][INFO]:$.message预期结果是：成功
+[2023-02-28 09:28:36,543][utils.py 37][INFO]:$.message实际结果是：成功
+[2023-02-28 09:28:36,543][test_anonymous.py 28][INFO]:test end:创建匿名用户-Type=2(android)
+[2023-02-28 09:28:36,545][request_utils.py 24][INFO]:test start：创建匿名用户-Type=3(pc_web) account/createAnonymous
+[2023-02-28 09:28:36,601][utils.py 36][INFO]:hr预期结果是：0
+[2023-02-28 09:28:36,602][utils.py 37][INFO]:hr实际结果是：0
+[2023-02-28 09:28:36,602][utils.py 36][INFO]:message预期结果是：成功
+[2023-02-28 09:28:36,602][utils.py 37][INFO]:message实际结果是：成功
+[2023-02-28 09:28:36,602][test_anonymous.py 28][INFO]:test end:创建匿名用户-Type=3(pc_web)
+[2023-02-28 09:28:36,603][request_utils.py 24][INFO]:test start：创建匿名用户-Type=4(m_site) account/createAnonymous
+[2023-02-28 09:28:36,663][utils.py 36][INFO]:hr预期结果是：0
+[2023-02-28 09:28:36,664][utils.py 37][INFO]:hr实际结果是：0
+[2023-02-28 09:28:36,664][utils.py 36][INFO]:message预期结果是：成功
+[2023-02-28 09:28:36,664][utils.py 37][INFO]:message实际结果是：成功
+[2023-02-28 09:28:36,665][test_anonymous.py 28][INFO]:test end:创建匿名用户-Type=4(m_site)
+[2023-02-28 09:28:36,667][request_utils.py 24][INFO]:test start：创建匿名用户-Type=5(小程序) account/createAnonymous
+[2023-02-28 09:28:36,725][utils.py 36][INFO]:hr预期结果是：0
+[2023-02-28 09:28:36,725][utils.py 37][INFO]:hr实际结果是：0
+[2023-02-28 09:28:36,725][utils.py 36][INFO]:message预期结果是：成功
+[2023-02-28 09:28:36,725][utils.py 37][INFO]:message实际结果是：成功
+[2023-02-28 09:28:36,726][test_anonymous.py 28][INFO]:test end:创建匿名用户-Type=5(小程序)
+[2023-02-28 09:28:36,728][request_utils.py 24][INFO]:test start：创建匿名用户-Type=6(直播客户端) account/createAnonymous
+[2023-02-28 09:28:36,803][utils.py 36][INFO]:$.hr预期结果是：0
+[2023-02-28 09:28:36,803][utils.py 37][INFO]:$.hr实际结果是：0
+[2023-02-28 09:28:36,803][utils.py 36][INFO]:$.message预期结果是：成功
+[2023-02-28 09:28:36,803][utils.py 37][INFO]:$.message实际结果是：成功
+[2023-02-28 09:28:36,803][test_anonymous.py 28][INFO]:test end:创建匿名用户-Type=6(直播客户端)
+[2023-02-28 09:28:36,805][request_utils.py 24][INFO]:test start：创建匿名用户-Type=0(非法) account/createAnonymous
+[2023-02-28 09:28:36,848][utils.py 36][INFO]:$.hr预期结果是：-2147463167
+[2023-02-28 09:28:36,848][utils.py 37][INFO]:$.hr实际结果是：-2147463167
+[2023-02-28 09:28:36,849][utils.py 36][INFO]:$.message预期结果是：无效的参数
+[2023-02-28 09:28:36,849][utils.py 37][INFO]:$.message实际结果是：无效的参数
+[2023-02-28 09:28:36,849][test_anonymous.py 28][INFO]:test end:创建匿名用户-Type=0(非法)
+[2023-02-28 09:28:36,850][request_utils.py 24][INFO]:test start：创建匿名用户-Type=None(空) account/createAnonymous
+[2023-02-28 09:28:36,886][utils.py 36][INFO]:$.hr预期结果是：-2147463167
+[2023-02-28 09:28:36,887][utils.py 37][INFO]:$.hr实际结果是：-2147463167
+[2023-02-28 09:28:36,887][utils.py 36][INFO]:$.message预期结果是：无效的参数
+[2023-02-28 09:28:36,887][utils.py 37][INFO]:$.message实际结果是：无效的参数
+[2023-02-28 09:28:36,887][test_anonymous.py 28][INFO]:test end:创建匿名用户-Type=None(空)
+[2023-02-28 11:21:55,625][conftest.py 30][INFO]:
+=========================Test on base url:https://api.qingshuxuetang.com/v22_13/ =========================
+[2023-02-28 11:21:55,627][request_utils.py 24][INFO]:test start：创建匿名用户-Type=1(ios) account/createAnonymous
+[2023-02-28 11:21:55,803][utils.py 26][INFO]:提取参数anon_token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1SWQiOjM4MjQwNjY3LCJyb2xlIjowLCJtb2NrSWRlbnRpdHkiOmZhbHNlLCJjbGllbnQiOiJ1bmtub3duIiwiZXhwIjoxOTkyOTE0NTE1LCJqdGkiOiJqd3RiOGNiNzFhZmE0YTI0MTk1ODM1MGJjOGNmZmIwYzgzOSIsInBsYXRmb3JtIjoicXN4dCJ9.gGctgqw2WFQoinaaov88aOPoZuJhJoXZ1-cxMLjybEU
+[2023-02-28 11:21:55,804][utils.py 37][INFO]:$.hr预期结果是：0
+[2023-02-28 11:21:55,804][utils.py 38][INFO]:$.hr实际结果是：0
+[2023-02-28 11:21:55,804][utils.py 37][INFO]:$.message预期结果是：成功
+[2023-02-28 11:21:55,804][utils.py 38][INFO]:$.message实际结果是：成功
+[2023-02-28 11:21:55,804][test_anonymous.py 28][INFO]:test end:创建匿名用户-Type=1(ios)
+[2023-02-28 11:21:55,806][request_utils.py 24][INFO]:test start：创建匿名用户-Type=2(android) account/createAnonymous
+[2023-02-28 11:21:55,855][utils.py 37][INFO]:$.hr预期结果是：0
+[2023-02-28 11:21:55,855][utils.py 38][INFO]:$.hr实际结果是：0
+[2023-02-28 11:21:55,855][utils.py 37][INFO]:$.message预期结果是：成功
+[2023-02-28 11:21:55,855][utils.py 38][INFO]:$.message实际结果是：成功
+[2023-02-28 11:21:55,855][test_anonymous.py 28][INFO]:test end:创建匿名用户-Type=2(android)
+[2023-02-28 11:21:55,856][request_utils.py 24][INFO]:test start：创建匿名用户-Type=3(pc_web) account/createAnonymous
+[2023-02-28 11:21:55,915][utils.py 37][INFO]:hr预期结果是：0
+[2023-02-28 11:21:55,915][utils.py 38][INFO]:hr实际结果是：0
+[2023-02-28 11:21:55,915][utils.py 37][INFO]:message预期结果是：成功
+[2023-02-28 11:21:55,915][utils.py 38][INFO]:message实际结果是：成功
+[2023-02-28 11:21:55,915][test_anonymous.py 28][INFO]:test end:创建匿名用户-Type=3(pc_web)
+[2023-02-28 11:21:55,916][request_utils.py 24][INFO]:test start：创建匿名用户-Type=4(m_site) account/createAnonymous
+[2023-02-28 11:21:55,966][utils.py 37][INFO]:hr预期结果是：0
+[2023-02-28 11:21:55,966][utils.py 38][INFO]:hr实际结果是：0
+[2023-02-28 11:21:55,967][utils.py 37][INFO]:message预期结果是：成功
+[2023-02-28 11:21:55,967][utils.py 38][INFO]:message实际结果是：成功
+[2023-02-28 11:21:55,967][test_anonymous.py 28][INFO]:test end:创建匿名用户-Type=4(m_site)
+[2023-02-28 11:21:55,968][request_utils.py 24][INFO]:test start：创建匿名用户-Type=5(小程序) account/createAnonymous
+[2023-02-28 11:21:56,015][utils.py 37][INFO]:hr预期结果是：0
+[2023-02-28 11:21:56,016][utils.py 38][INFO]:hr实际结果是：0
+[2023-02-28 11:21:56,016][utils.py 37][INFO]:message预期结果是：成功
+[2023-02-28 11:21:56,016][utils.py 38][INFO]:message实际结果是：成功
+[2023-02-28 11:21:56,016][test_anonymous.py 28][INFO]:test end:创建匿名用户-Type=5(小程序)
+[2023-02-28 11:21:56,017][request_utils.py 24][INFO]:test start：创建匿名用户-Type=6(直播客户端) account/createAnonymous
+[2023-02-28 11:21:56,065][utils.py 37][INFO]:$.hr预期结果是：0
+[2023-02-28 11:21:56,065][utils.py 38][INFO]:$.hr实际结果是：0
+[2023-02-28 11:21:56,065][utils.py 37][INFO]:$.message预期结果是：成功
+[2023-02-28 11:21:56,065][utils.py 38][INFO]:$.message实际结果是：成功
+[2023-02-28 11:21:56,065][test_anonymous.py 28][INFO]:test end:创建匿名用户-Type=6(直播客户端)
+[2023-02-28 11:21:56,067][request_utils.py 24][INFO]:test start：创建匿名用户-Type=0(非法) account/createAnonymous
+[2023-02-28 11:21:56,106][utils.py 37][INFO]:$.hr预期结果是：-2147463167
+[2023-02-28 11:21:56,106][utils.py 38][INFO]:$.hr实际结果是：-2147463167
+[2023-02-28 11:21:56,106][utils.py 37][INFO]:$.message预期结果是：无效的参数
+[2023-02-28 11:21:56,106][utils.py 38][INFO]:$.message实际结果是：无效的参数
+[2023-02-28 11:21:56,106][test_anonymous.py 28][INFO]:test end:创建匿名用户-Type=0(非法)
+[2023-02-28 11:21:56,107][request_utils.py 24][INFO]:test start：创建匿名用户-Type=None(空) account/createAnonymous
+[2023-02-28 11:21:56,146][utils.py 37][INFO]:$.hr预期结果是：-2147463167
+[2023-02-28 11:21:56,146][utils.py 38][INFO]:$.hr实际结果是：-2147463167
+[2023-02-28 11:21:56,146][utils.py 37][INFO]:$.message预期结果是：无效的参数
+[2023-02-28 11:21:56,146][utils.py 38][INFO]:$.message实际结果是：无效的参数
+[2023-02-28 11:21:56,147][test_anonymous.py 28][INFO]:test end:创建匿名用户-Type=None(空)
+[2023-02-28 11:21:56,149][request_utils.py 24][INFO]:test start：用户名密码登录 https://api.qingshuxuetang.com/v22_13/account/login
+[2023-02-28 14:13:08,086][conftest.py 28][INFO]:
+=========================Test on base url:https://api.qingshuxuetang.com/v22_13/ =========================
+[2023-02-28 14:15:00,067][conftest.py 28][INFO]:
+=========================Test on base url:https://api.qingshuxuetang.com/v22_13/ =========================
+[2023-02-28 14:15:15,959][conftest.py 28][INFO]:
+=========================Test on base url:https://api.qingshuxuetang.com/v22_13/ =========================
+[2023-02-28 14:15:19,947][request_utils.py 24][INFO]:test start：创建匿名用户-Type=1(ios) account/createAnonymous
+[2023-02-28 14:15:20,086][utils.py 26][INFO]:提取参数anon_token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1SWQiOjM4MjQwNjY3LCJyb2xlIjowLCJtb2NrSWRlbnRpdHkiOmZhbHNlLCJjbGllbnQiOiJ1bmtub3duIiwiZXhwIjoxOTkyOTI0OTIwLCJqdGkiOiJqd3RjMWMwMDIwMTg5Y2M0N2NmOThkMjhhZTM5ZjJkYzM0NSIsInBsYXRmb3JtIjoicXN4dCJ9.iCBc_mMwQmfGvgKS-jWSue14vXuUADZw7Hqnu7N0n5M
+[2023-02-28 14:15:20,088][utils.py 37][INFO]:$.hr预期结果是：0
+[2023-02-28 14:15:20,088][utils.py 38][INFO]:$.hr实际结果是：0
+[2023-02-28 14:15:20,088][utils.py 37][INFO]:$.message预期结果是：成功
+[2023-02-28 14:15:20,088][utils.py 38][INFO]:$.message实际结果是：成功
+[2023-02-28 14:15:20,088][test_anonymous.py 28][INFO]:test end:创建匿名用户-Type=1(ios)
+[2023-02-28 14:15:20,092][request_utils.py 24][INFO]:test start：创建匿名用户-Type=2(android) account/createAnonymous
+[2023-02-28 14:15:20,135][utils.py 37][INFO]:$.hr预期结果是：0
+[2023-02-28 14:15:20,136][utils.py 38][INFO]:$.hr实际结果是：0
+[2023-02-28 14:15:20,136][utils.py 37][INFO]:$.message预期结果是：成功
+[2023-02-28 14:15:20,136][utils.py 38][INFO]:$.message实际结果是：成功
+[2023-02-28 14:15:20,136][test_anonymous.py 28][INFO]:test end:创建匿名用户-Type=2(android)
+[2023-02-28 14:15:20,138][request_utils.py 24][INFO]:test start：创建匿名用户-Type=3(pc_web) account/createAnonymous
+[2023-02-28 14:15:20,184][utils.py 37][INFO]:hr预期结果是：0
+[2023-02-28 14:15:20,184][utils.py 38][INFO]:hr实际结果是：0
+[2023-02-28 14:15:20,184][utils.py 37][INFO]:message预期结果是：成功
+[2023-02-28 14:15:20,184][utils.py 38][INFO]:message实际结果是：成功
+[2023-02-28 14:15:20,184][test_anonymous.py 28][INFO]:test end:创建匿名用户-Type=3(pc_web)
+[2023-02-28 14:15:20,185][request_utils.py 24][INFO]:test start：创建匿名用户-Type=4(m_site) account/createAnonymous
+[2023-02-28 14:15:20,243][utils.py 37][INFO]:hr预期结果是：0
+[2023-02-28 14:15:20,243][utils.py 38][INFO]:hr实际结果是：0
+[2023-02-28 14:15:20,243][utils.py 37][INFO]:message预期结果是：成功
+[2023-02-28 14:15:20,243][utils.py 38][INFO]:message实际结果是：成功
+[2023-02-28 14:15:20,243][test_anonymous.py 28][INFO]:test end:创建匿名用户-Type=4(m_site)
+[2023-02-28 14:15:20,245][request_utils.py 24][INFO]:test start：创建匿名用户-Type=5(小程序) account/createAnonymous
+[2023-02-28 14:15:20,303][utils.py 37][INFO]:hr预期结果是：0
+[2023-02-28 14:15:20,304][utils.py 38][INFO]:hr实际结果是：0
+[2023-02-28 14:15:20,304][utils.py 37][INFO]:message预期结果是：成功
+[2023-02-28 14:15:20,304][utils.py 38][INFO]:message实际结果是：成功
+[2023-02-28 14:15:20,304][test_anonymous.py 28][INFO]:test end:创建匿名用户-Type=5(小程序)
+[2023-02-28 14:15:20,307][request_utils.py 24][INFO]:test start：创建匿名用户-Type=6(直播客户端) account/createAnonymous
+[2023-02-28 14:15:20,369][utils.py 37][INFO]:$.hr预期结果是：0
+[2023-02-28 14:15:20,369][utils.py 38][INFO]:$.hr实际结果是：0
+[2023-02-28 14:15:20,369][utils.py 37][INFO]:$.message预期结果是：成功
+[2023-02-28 14:15:20,369][utils.py 38][INFO]:$.message实际结果是：成功
+[2023-02-28 14:15:20,369][test_anonymous.py 28][INFO]:test end:创建匿名用户-Type=6(直播客户端)
+[2023-02-28 14:15:20,372][request_utils.py 24][INFO]:test start：创建匿名用户-Type=0(非法) account/createAnonymous
+[2023-02-28 14:15:20,411][utils.py 37][INFO]:$.hr预期结果是：-2147463167
+[2023-02-28 14:15:20,411][utils.py 38][INFO]:$.hr实际结果是：-2147463167
+[2023-02-28 14:15:20,411][utils.py 37][INFO]:$.message预期结果是：无效的参数
+[2023-02-28 14:15:20,411][utils.py 38][INFO]:$.message实际结果是：无效的参数
+[2023-02-28 14:15:20,411][test_anonymous.py 28][INFO]:test end:创建匿名用户-Type=0(非法)
+[2023-02-28 14:15:20,413][request_utils.py 24][INFO]:test start：创建匿名用户-Type=None(空) account/createAnonymous
+[2023-02-28 14:15:20,446][utils.py 37][INFO]:$.hr预期结果是：-2147463167
+[2023-02-28 14:15:20,446][utils.py 38][INFO]:$.hr实际结果是：-2147463167
+[2023-02-28 14:15:20,447][utils.py 37][INFO]:$.message预期结果是：无效的参数
+[2023-02-28 14:15:20,447][utils.py 38][INFO]:$.message实际结果是：无效的参数
+[2023-02-28 14:15:20,447][test_anonymous.py 28][INFO]:test end:创建匿名用户-Type=None(空)
+[2023-02-28 14:23:03,917][conftest.py 28][INFO]:
+=========================Test on base url:https://api.qingshuxuetang.com/v22_13/ =========================
+[2023-02-28 14:23:09,154][request_utils.py 24][INFO]:test start：创建匿名用户-Type=1(ios) account/createAnonymous
+[2023-02-28 14:23:09,307][utils.py 26][INFO]:提取参数anon_token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1SWQiOjM4MjQwNjY3LCJyb2xlIjowLCJtb2NrSWRlbnRpdHkiOmZhbHNlLCJjbGllbnQiOiJ1bmtub3duIiwiZXhwIjoxOTkyOTI1Mzg5LCJqdGkiOiJqd3RlYzAyNDJjMGJiNTU0NzFiODFlMWUxYTJmNzU2MTA5NCIsInBsYXRmb3JtIjoicXN4dCJ9.XlzqfFD_uKogJnjsQ21QLaJO-IPMeIAGJu0_Skzk6XA
+[2023-02-28 14:23:09,309][utils.py 37][INFO]:$.hr预期结果是：0
+[2023-02-28 14:23:09,309][utils.py 38][INFO]:$.hr实际结果是：0
+[2023-02-28 14:23:09,310][utils.py 37][INFO]:$.message预期结果是：成功
+[2023-02-28 14:23:09,310][utils.py 38][INFO]:$.message实际结果是：成功
+[2023-02-28 14:23:09,310][test_anonymous.py 28][INFO]:test end:创建匿名用户-Type=1(ios)
+[2023-02-28 14:23:09,314][request_utils.py 24][INFO]:test start：创建匿名用户-Type=2(android) account/createAnonymous
+[2023-02-28 14:23:09,362][utils.py 37][INFO]:$.hr预期结果是：0
+[2023-02-28 14:23:09,362][utils.py 38][INFO]:$.hr实际结果是：0
+[2023-02-28 14:23:09,362][utils.py 37][INFO]:$.message预期结果是：成功
+[2023-02-28 14:23:09,362][utils.py 38][INFO]:$.message实际结果是：成功
+[2023-02-28 14:23:09,362][test_anonymous.py 28][INFO]:test end:创建匿名用户-Type=2(android)
+[2023-02-28 14:23:09,364][request_utils.py 24][INFO]:test start：创建匿名用户-Type=3(pc_web) account/createAnonymous
+[2023-02-28 14:23:09,413][utils.py 37][INFO]:hr预期结果是：0
+[2023-02-28 14:23:09,414][utils.py 38][INFO]:hr实际结果是：0
+[2023-02-28 14:23:09,414][utils.py 37][INFO]:message预期结果是：成功
+[2023-02-28 14:23:09,414][utils.py 38][INFO]:message实际结果是：成功
+[2023-02-28 14:23:09,414][test_anonymous.py 28][INFO]:test end:创建匿名用户-Type=3(pc_web)
+[2023-02-28 14:23:09,415][request_utils.py 24][INFO]:test start：创建匿名用户-Type=4(m_site) account/createAnonymous
+[2023-02-28 14:23:09,463][utils.py 37][INFO]:hr预期结果是：0
+[2023-02-28 14:23:09,464][utils.py 38][INFO]:hr实际结果是：0
+[2023-02-28 14:23:09,464][utils.py 37][INFO]:message预期结果是：成功
+[2023-02-28 14:23:09,464][utils.py 38][INFO]:message实际结果是：成功
+[2023-02-28 14:23:09,464][test_anonymous.py 28][INFO]:test end:创建匿名用户-Type=4(m_site)
+[2023-02-28 14:23:09,466][request_utils.py 24][INFO]:test start：创建匿名用户-Type=5(小程序) account/createAnonymous
+[2023-02-28 14:23:09,517][utils.py 37][INFO]:hr预期结果是：0
+[2023-02-28 14:23:09,518][utils.py 38][INFO]:hr实际结果是：0
+[2023-02-28 14:23:09,518][utils.py 37][INFO]:message预期结果是：成功
+[2023-02-28 14:23:09,518][utils.py 38][INFO]:message实际结果是：成功
+[2023-02-28 14:23:09,518][test_anonymous.py 28][INFO]:test end:创建匿名用户-Type=5(小程序)
+[2023-02-28 14:23:09,521][request_utils.py 24][INFO]:test start：创建匿名用户-Type=6(直播客户端) account/createAnonymous
+[2023-02-28 14:23:09,572][utils.py 37][INFO]:$.hr预期结果是：0
+[2023-02-28 14:23:09,573][utils.py 38][INFO]:$.hr实际结果是：0
+[2023-02-28 14:23:09,573][utils.py 37][INFO]:$.message预期结果是：成功
+[2023-02-28 14:23:09,573][utils.py 38][INFO]:$.message实际结果是：成功
+[2023-02-28 14:23:09,573][test_anonymous.py 28][INFO]:test end:创建匿名用户-Type=6(直播客户端)
+[2023-02-28 14:23:09,576][request_utils.py 24][INFO]:test start：创建匿名用户-Type=0(非法) account/createAnonymous
+[2023-02-28 14:23:09,617][utils.py 37][INFO]:$.hr预期结果是：-2147463167
+[2023-02-28 14:23:09,617][utils.py 38][INFO]:$.hr实际结果是：-2147463167
+[2023-02-28 14:23:09,617][utils.py 37][INFO]:$.message预期结果是：无效的参数
+[2023-02-28 14:23:09,617][utils.py 38][INFO]:$.message实际结果是：无效的参数
+[2023-02-28 14:23:09,617][test_anonymous.py 28][INFO]:test end:创建匿名用户-Type=0(非法)
+[2023-02-28 14:23:09,619][request_utils.py 24][INFO]:test start：创建匿名用户-Type=None(空) account/createAnonymous
+[2023-02-28 14:23:09,656][utils.py 37][INFO]:$.hr预期结果是：-2147463167
+[2023-02-28 14:23:09,657][utils.py 38][INFO]:$.hr实际结果是：-2147463167
+[2023-02-28 14:23:09,657][utils.py 37][INFO]:$.message预期结果是：无效的参数
+[2023-02-28 14:23:09,657][utils.py 38][INFO]:$.message实际结果是：无效的参数
+[2023-02-28 14:23:09,657][test_anonymous.py 28][INFO]:test end:创建匿名用户-Type=None(空)
+[2023-02-28 14:23:14,830][request_utils.py 24][INFO]:test start：获取用户信息 account/info
+[2023-02-28 14:23:14,926][utils.py 37][INFO]:$.hr预期结果是：0
+[2023-02-28 14:23:14,927][utils.py 38][INFO]:$.hr实际结果是：0
+[2023-02-28 14:23:14,927][utils.py 37][INFO]:$.message预期结果是：成功
+[2023-02-28 14:23:14,927][utils.py 38][INFO]:$.message实际结果是：成功
+[2023-02-28 14:23:14,927][utils.py 37][INFO]:$.data.displayName预期结果是：张三
+[2023-02-28 14:23:14,928][utils.py 38][INFO]:$.data.displayName实际结果是：张三
+[2023-02-28 14:23:14,928][test_account_info.py 21][INFO]:Http返回：{"data":{"ssnInfos":null,"id":37256278,"name":"qs_1125211232XqEu","displayName":"张三","gender":null,"phone":"140****0201","email":null,"address":null,"nationality":null,"identityCard":null,"birthday":null,"photoUrl":null,"userType":0,"phoneValid":true,"pwdStrong":true,"userSchools":[{"schoolUserId":2293,"id":1920,"name":"青书学堂培训_测试组","symbol":"testpx","category":0,"userRole":1,"studentNumber":null,"centerId":null,"centerName":null,"organizationId":12716,"parentOrganizationId":null,"organizationName":"青书学堂培训_测试组","organizationStatus":2,"isTrial":false,"trialEndTime":0,"organizationLogo":"https://s3.cn-north-1.amazonaws.com.cn/qingshuxuetang/uploadFile/photo/1670430923607-Y3JvcHBlci11cGxvYWQ=.jpg","majorId":null,"majorName":null,"levelName":null,"semesterId":null,"semesterName":null,"enrollSemesterId":null,"enrollSemesterName":null,"learningStatus":null,"learningStatusName":null,"classId":null,"className":null,"studentStatusConfirm":null,"studentStatusPhotoUrl":null,"studentStatusPhotoCheckStatus":null,"examTicketNum":null,"examNum":null},{"schoolUserId":null,"id":4328,"name":"云享课","symbol":"yxk","category":8,"userRole":1,"studentNumber":null,"centerId":12716,"centerName":null,"organizationId":12716,"parentOrganizationId":null,"organizationName":"青书学堂培训_测试组","organizationStatus":2,"isTrial":null,"trialEndTime":null,"organizationLogo":"https://s3.cn-north-1.amazonaws.com.cn/qingshuxuetang/uploadFile/photo/1670430923607-Y3JvcHBlci11cGxvYWQ=.jpg","majorId":null,"majorName":null,"levelName":null,"semesterId":null,"semesterName":null,"enrollSemesterId":null,"enrollSemesterName":null,"learningStatus":null,"learningStatusName":null,"classId":null,"className":null,"studentStatusConfirm":null,"studentStatusPhotoUrl":null,"studentStatusPhotoCheckStatus":null,"examTicketNum":null,"examNum":null},{"schoolUserId":null,"id":4328,"name":"云享课","symbol":"yxk","category":8,"userRole":1,"studentNumber":null,"centerId":52247,"centerName":null,"organizationId":52247,"parentOrganizationId":12716,"organizationName":"2212测试分销商2","organizationStatus":2,"isTrial":null,"trialEndTime":null,"organizationLogo":"https://s3.cn-north-1.amazonaws.com.cn/qingshuxuetang/uploadFile/photo/1673899849031-Y3JvcHBlci11cGxvYWQ=.png","majorId":null,"majorName":null,"levelName":null,"semesterId":null,"semesterName":null,"enrollSemesterId":null,"enrollSemesterName":null,"learningStatus":null,"learningStatusName":null,"classId":null,"className":null,"studentStatusConfirm":null,"studentStatusPhotoUrl":null,"studentStatusPhotoCheckStatus":null,"examTicketNum":null,"examNum":null}]},"message":"成功","extraData":null,"hr":0}
+[2023-02-28 14:24:13,137][conftest.py 28][INFO]:
+=========================Test on base url:https://api.qingshuxuetang.com/v22_13/ =========================
+[2023-02-28 14:24:19,187][request_utils.py 24][INFO]:test start：创建匿名用户-Type=1(ios) account/createAnonymous
+[2023-02-28 14:24:19,338][utils.py 26][INFO]:提取参数anon_token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1SWQiOjM4MjQwNjY3LCJyb2xlIjowLCJtb2NrSWRlbnRpdHkiOmZhbHNlLCJjbGllbnQiOiJ1bmtub3duIiwiZXhwIjoxOTkyOTI1NDU5LCJqdGkiOiJqd3RlZmU0YWNiM2JhYjU0ZTliYjVkODU3OGQxMTQ4ZDNiMiIsInBsYXRmb3JtIjoicXN4dCJ9.OBZJnU_DtmcIlgzjtT_evqFKi8pPNh5AD29B6fLcBfk
+[2023-02-28 14:24:19,340][utils.py 37][INFO]:$.hr预期结果是：0
+[2023-02-28 14:24:19,340][utils.py 38][INFO]:$.hr实际结果是：0
+[2023-02-28 14:24:19,341][utils.py 37][INFO]:$.message预期结果是：成功
+[2023-02-28 14:24:19,341][utils.py 38][INFO]:$.message实际结果是：成功
+[2023-02-28 14:24:19,341][test_anonymous.py 28][INFO]:test end:创建匿名用户-Type=1(ios)
+[2023-02-28 14:24:19,344][request_utils.py 24][INFO]:test start：创建匿名用户-Type=2(android) account/createAnonymous
+[2023-02-28 14:24:19,388][utils.py 37][INFO]:$.hr预期结果是：0
+[2023-02-28 14:24:19,388][utils.py 38][INFO]:$.hr实际结果是：0
+[2023-02-28 14:24:19,388][utils.py 37][INFO]:$.message预期结果是：成功
+[2023-02-28 14:24:19,389][utils.py 38][INFO]:$.message实际结果是：成功
+[2023-02-28 14:24:19,389][test_anonymous.py 28][INFO]:test end:创建匿名用户-Type=2(android)
+[2023-02-28 14:24:19,391][request_utils.py 24][INFO]:test start：创建匿名用户-Type=3(pc_web) account/createAnonymous
+[2023-02-28 14:24:19,438][utils.py 37][INFO]:hr预期结果是：0
+[2023-02-28 14:24:19,439][utils.py 38][INFO]:hr实际结果是：0
+[2023-02-28 14:24:19,439][utils.py 37][INFO]:message预期结果是：成功
+[2023-02-28 14:24:19,439][utils.py 38][INFO]:message实际结果是：成功
+[2023-02-28 14:24:19,439][test_anonymous.py 28][INFO]:test end:创建匿名用户-Type=3(pc_web)
+[2023-02-28 14:24:19,442][request_utils.py 24][INFO]:test start：创建匿名用户-Type=4(m_site) account/createAnonymous
+[2023-02-28 14:24:19,491][utils.py 37][INFO]:hr预期结果是：0
+[2023-02-28 14:24:19,492][utils.py 38][INFO]:hr实际结果是：0
+[2023-02-28 14:24:19,492][utils.py 37][INFO]:message预期结果是：成功
+[2023-02-28 14:24:19,492][utils.py 38][INFO]:message实际结果是：成功
+[2023-02-28 14:24:19,493][test_anonymous.py 28][INFO]:test end:创建匿名用户-Type=4(m_site)
+[2023-02-28 14:24:19,495][request_utils.py 24][INFO]:test start：创建匿名用户-Type=5(小程序) account/createAnonymous
+[2023-02-28 14:24:19,543][utils.py 37][INFO]:hr预期结果是：0
+[2023-02-28 14:24:19,543][utils.py 38][INFO]:hr实际结果是：0
+[2023-02-28 14:24:19,544][utils.py 37][INFO]:message预期结果是：成功
+[2023-02-28 14:24:19,544][utils.py 38][INFO]:message实际结果是：成功
+[2023-02-28 14:24:19,544][test_anonymous.py 28][INFO]:test end:创建匿名用户-Type=5(小程序)
+[2023-02-28 14:24:19,547][request_utils.py 24][INFO]:test start：创建匿名用户-Type=6(直播客户端) account/createAnonymous
+[2023-02-28 14:24:19,597][utils.py 37][INFO]:$.hr预期结果是：0
+[2023-02-28 14:24:19,598][utils.py 38][INFO]:$.hr实际结果是：0
+[2023-02-28 14:24:19,598][utils.py 37][INFO]:$.message预期结果是：成功
+[2023-02-28 14:24:19,598][utils.py 38][INFO]:$.message实际结果是：成功
+[2023-02-28 14:24:19,598][test_anonymous.py 28][INFO]:test end:创建匿名用户-Type=6(直播客户端)
+[2023-02-28 14:24:19,600][request_utils.py 24][INFO]:test start：创建匿名用户-Type=0(非法) account/createAnonymous
+[2023-02-28 14:24:19,637][utils.py 37][INFO]:$.hr预期结果是：-2147463167
+[2023-02-28 14:24:19,637][utils.py 38][INFO]:$.hr实际结果是：-2147463167
+[2023-02-28 14:24:19,638][utils.py 37][INFO]:$.message预期结果是：无效的参数
+[2023-02-28 14:24:19,638][utils.py 38][INFO]:$.message实际结果是：无效的参数
+[2023-02-28 14:24:19,638][test_anonymous.py 28][INFO]:test end:创建匿名用户-Type=0(非法)
+[2023-02-28 14:24:19,639][request_utils.py 24][INFO]:test start：创建匿名用户-Type=None(空) account/createAnonymous
+[2023-02-28 14:24:19,673][utils.py 37][INFO]:$.hr预期结果是：-2147463167
+[2023-02-28 14:24:19,673][utils.py 38][INFO]:$.hr实际结果是：-2147463167
+[2023-02-28 14:24:19,674][utils.py 37][INFO]:$.message预期结果是：无效的参数
+[2023-02-28 14:24:19,674][utils.py 38][INFO]:$.message实际结果是：无效的参数
+[2023-02-28 14:24:19,674][test_anonymous.py 28][INFO]:test end:创建匿名用户-Type=None(空)
+[2023-02-28 14:24:25,599][request_utils.py 24][INFO]:test start：获取用户信息 account/info
+[2023-02-28 14:24:25,668][utils.py 37][INFO]:$.hr预期结果是：0
+[2023-02-28 14:24:25,669][utils.py 38][INFO]:$.hr实际结果是：0
+[2023-02-28 14:24:25,669][utils.py 37][INFO]:$.message预期结果是：成功
+[2023-02-28 14:24:25,669][utils.py 38][INFO]:$.message实际结果是：成功
+[2023-02-28 14:24:25,669][utils.py 37][INFO]:$.data.displayName预期结果是：张三
+[2023-02-28 14:24:25,669][utils.py 38][INFO]:$.data.displayName实际结果是：张三
+[2023-02-28 14:24:25,669][test_account_info.py 21][INFO]:Http返回：{"data":{"ssnInfos":null,"id":37256278,"name":"qs_1125211232XqEu","displayName":"张三","gender":null,"phone":"140****0201","email":null,"address":null,"nationality":null,"identityCard":null,"birthday":null,"photoUrl":null,"userType":0,"phoneValid":true,"pwdStrong":true,"userSchools":[{"schoolUserId":2293,"id":1920,"name":"青书学堂培训_测试组","symbol":"testpx","category":0,"userRole":1,"studentNumber":null,"centerId":null,"centerName":null,"organizationId":12716,"parentOrganizationId":null,"organizationName":"青书学堂培训_测试组","organizationStatus":2,"isTrial":false,"trialEndTime":0,"organizationLogo":"https://s3.cn-north-1.amazonaws.com.cn/qingshuxuetang/uploadFile/photo/1670430923607-Y3JvcHBlci11cGxvYWQ=.jpg","majorId":null,"majorName":null,"levelName":null,"semesterId":null,"semesterName":null,"enrollSemesterId":null,"enrollSemesterName":null,"learningStatus":null,"learningStatusName":null,"classId":null,"className":null,"studentStatusConfirm":null,"studentStatusPhotoUrl":null,"studentStatusPhotoCheckStatus":null,"examTicketNum":null,"examNum":null},{"schoolUserId":null,"id":4328,"name":"云享课","symbol":"yxk","category":8,"userRole":1,"studentNumber":null,"centerId":12716,"centerName":null,"organizationId":12716,"parentOrganizationId":null,"organizationName":"青书学堂培训_测试组","organizationStatus":2,"isTrial":null,"trialEndTime":null,"organizationLogo":"https://s3.cn-north-1.amazonaws.com.cn/qingshuxuetang/uploadFile/photo/1670430923607-Y3JvcHBlci11cGxvYWQ=.jpg","majorId":null,"majorName":null,"levelName":null,"semesterId":null,"semesterName":null,"enrollSemesterId":null,"enrollSemesterName":null,"learningStatus":null,"learningStatusName":null,"classId":null,"className":null,"studentStatusConfirm":null,"studentStatusPhotoUrl":null,"studentStatusPhotoCheckStatus":null,"examTicketNum":null,"examNum":null},{"schoolUserId":null,"id":4328,"name":"云享课","symbol":"yxk","category":8,"userRole":1,"studentNumber":null,"centerId":52247,"centerName":null,"organizationId":52247,"parentOrganizationId":12716,"organizationName":"2212测试分销商2","organizationStatus":2,"isTrial":null,"trialEndTime":null,"organizationLogo":"https://s3.cn-north-1.amazonaws.com.cn/qingshuxuetang/uploadFile/photo/1673899849031-Y3JvcHBlci11cGxvYWQ=.png","majorId":null,"majorName":null,"levelName":null,"semesterId":null,"semesterName":null,"enrollSemesterId":null,"enrollSemesterName":null,"learningStatus":null,"learningStatusName":null,"classId":null,"className":null,"studentStatusConfirm":null,"studentStatusPhotoUrl":null,"studentStatusPhotoCheckStatus":null,"examTicketNum":null,"examNum":null}]},"message":"成功","extraData":null,"hr":0}
+[2023-02-28 14:24:25,673][request_utils.py 24][INFO]:test start：点击首页,action=5 behavior/feedback
+[2023-02-28 14:24:25,746][utils.py 37][INFO]:hr预期结果是：0
+[2023-02-28 14:24:25,747][utils.py 38][INFO]:hr实际结果是：0
+[2023-02-28 14:24:25,747][utils.py 37][INFO]:message预期结果是：成功
+[2023-02-28 14:24:25,747][utils.py 38][INFO]:message实际结果是：成功
+[2023-02-28 14:24:25,748][test_feedback.py 15][INFO]:http返回:{"data":null,"message":"成功","extraData":null,"hr":0}
+[2023-02-28 14:24:25,748][test_feedback.py 16][INFO]:test end：点击首页,action=5
+[2023-02-28 14:24:25,751][request_utils.py 24][INFO]:test start：匿名用户点击首页,action=5 behavior/feedback
+[2023-02-28 14:24:25,807][utils.py 37][INFO]:hr预期结果是：0
+[2023-02-28 14:24:25,808][utils.py 38][INFO]:hr实际结果是：0
+[2023-02-28 14:24:25,808][utils.py 37][INFO]:message预期结果是：成功
+[2023-02-28 14:24:25,808][utils.py 38][INFO]:message实际结果是：成功
+[2023-02-28 14:24:25,808][test_feedback.py 15][INFO]:http返回:{"data":null,"message":"成功","extraData":null,"hr":0}
+[2023-02-28 14:24:25,808][test_feedback.py 16][INFO]:test end：匿名用户点击首页,action=5
+[2023-02-28 14:24:25,809][request_utils.py 24][INFO]:test start：点击首页,action=16 behavior/feedback
+[2023-02-28 14:24:25,861][utils.py 37][INFO]:hr预期结果是：0
+[2023-02-28 14:24:25,861][utils.py 38][INFO]:hr实际结果是：0
+[2023-02-28 14:24:25,862][utils.py 37][INFO]:message预期结果是：成功
+[2023-02-28 14:24:25,862][utils.py 38][INFO]:message实际结果是：成功
+[2023-02-28 14:24:25,862][test_feedback.py 15][INFO]:http返回:{"data":null,"message":"成功","extraData":null,"hr":0}
+[2023-02-28 14:24:25,862][test_feedback.py 16][INFO]:test end：点击首页,action=16
+[2023-02-28 14:24:25,863][request_utils.py 24][INFO]:test start：点击首页,action=61 behavior/feedback
+[2023-02-28 14:24:25,902][utils.py 37][INFO]:hr预期结果是：0
+[2023-02-28 14:24:25,902][utils.py 38][INFO]:hr实际结果是：0
+[2023-02-28 14:24:25,903][utils.py 37][INFO]:message预期结果是：成功
+[2023-02-28 14:24:25,903][utils.py 38][INFO]:message实际结果是：成功
+[2023-02-28 14:24:25,903][test_feedback.py 15][INFO]:http返回:{"data":null,"message":"成功","extraData":null,"hr":0}
+[2023-02-28 14:24:25,903][test_feedback.py 16][INFO]:test end：点击首页,action=61
+[2023-02-28 14:24:25,904][request_utils.py 24][INFO]:test start：点击首页,action=62 behavior/feedback
+[2023-02-28 14:24:25,948][utils.py 37][INFO]:hr预期结果是：0
+[2023-02-28 14:24:25,948][utils.py 38][INFO]:hr实际结果是：0
+[2023-02-28 14:24:25,949][utils.py 37][INFO]:message预期结果是：成功
+[2023-02-28 14:24:25,949][utils.py 38][INFO]:message实际结果是：成功
+[2023-02-28 14:24:25,949][test_feedback.py 15][INFO]:http返回:{"data":null,"message":"成功","extraData":null,"hr":0}
+[2023-02-28 14:24:25,949][test_feedback.py 16][INFO]:test end：点击首页,action=62
+[2023-02-28 14:24:25,950][request_utils.py 24][INFO]:test start：点击首页,action=1 behavior/feedback
+[2023-02-28 14:24:25,996][utils.py 37][INFO]:hr预期结果是：0
+[2023-02-28 14:24:25,996][utils.py 38][INFO]:hr实际结果是：0
+[2023-02-28 14:24:25,997][utils.py 37][INFO]:message预期结果是：成功
+[2023-02-28 14:24:25,997][utils.py 38][INFO]:message实际结果是：成功
+[2023-02-28 14:24:25,997][test_feedback.py 15][INFO]:http返回:{"data":null,"message":"成功","extraData":null,"hr":0}
+[2023-02-28 14:24:25,997][test_feedback.py 16][INFO]:test end：点击首页,action=1
+[2023-02-28 14:24:25,999][request_utils.py 24][INFO]:test start：点击首页,action=None behavior/feedback
+[2023-02-28 14:24:26,041][utils.py 37][INFO]:hr预期结果是：-2147463167
+[2023-02-28 14:24:26,041][utils.py 38][INFO]:hr实际结果是：-2147463167
+[2023-02-28 14:24:26,041][utils.py 37][INFO]:message预期结果是：无效的参数
+[2023-02-28 14:24:26,041][utils.py 38][INFO]:message实际结果是：无效的参数
+[2023-02-28 14:24:26,041][test_feedback.py 15][INFO]:http返回:{"data":{"failedContentList":[{"id":"","action":null,"grade":null,"scanDuration":null}]},"message":"无效的参数","extraData":null,"hr":-2147463167}
+[2023-02-28 14:24:26,041][test_feedback.py 16][INFO]:test end：点击首页,action=None
+[2023-02-28 14:24:26,042][request_utils.py 24][INFO]:test start：获取图片验证码 account/getValidationCode
+[2023-02-28 14:24:26,094][utils.py 37][INFO]:hr预期结果是：0
+[2023-02-28 14:24:26,094][utils.py 38][INFO]:hr实际结果是：0
+[2023-02-28 14:24:26,094][utils.py 37][INFO]:message预期结果是：成功
+[2023-02-28 14:24:26,094][utils.py 38][INFO]:message实际结果是：成功
+[2023-02-28 14:24:26,094][test_validation_code.py 22][INFO]:test end:获取图片验证码

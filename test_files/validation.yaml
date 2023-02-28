@@ -1,0 +1,18 @@
+-
+    name: 获取图片验证码
+    user_info: {}
+    request:
+        url: account/getValidationCode
+        method: post
+        data: {"recv":"14000100201","validationType":3}
+        headers:
+            Authorization-QS: ${anon_token}
+            User-Agent-QS: QSXT
+            Content-Type: application/json
+            Connection: keep-alive
+            Accept: application/json
+            User-Agent: ELearningQSXT/22.12.1 (iPhone; iOS 13.3; Scale/2.00)
+    validate:
+        - eq:
+            hr: 0
+            message: 成功

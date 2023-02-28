@@ -1,0 +1,146 @@
+-
+    name: 创建匿名用户-Type=1(ios)
+    request:
+        method: post
+        url: account/createAnonymous
+        headers:
+            User-Agent-QS: QSXT
+            Content-Type: application/json
+            Connection: keep-alive
+            Accept: application/json
+            User-Agent: ELearningQSXT/22.12.1 (iPhone; iOS 13.3; Scale/2.00)
+        data:
+            deviceToken: 46E3CCBB-7C6D-43BD-BE29-0E25B4DBA8E4
+            clientType: 1
+    extract:
+        anon_token: $.data.token
+    validate:
+        - eq:
+            $.hr: 0
+            $.message: 成功
+-
+    name: 创建匿名用户-Type=2(android)
+    request:
+        method: post
+        url: account/createAnonymous
+        headers:
+            User-Agent-QS: QSXT
+            Content-Type: application/json
+            Connection: keep-alive
+            Accept: application/json
+            User-Agent: ELearningQSXT/22.12.1 (iPhone; iOS 13.3; Scale/2.00)
+        data:
+            deviceToken: 46E3CCBB-7C6D-43BD-BE29-0E25B4DBA8E4
+            clientType: 2
+    validate:
+        - eq:
+            $.hr: 0
+            $.message: 成功
+-
+    name: 创建匿名用户-Type=3(pc_web)
+    request:
+        method: post
+        url: account/createAnonymous
+        headers:
+            User-Agent-QS: QSXT
+            Content-Type: application/json
+            Connection: keep-alive
+            Accept: application/json
+            User-Agent: ELearningQSXT/22.12.1 (iPhone; iOS 13.3; Scale/2.00)
+        data:
+            deviceToken: 46E3CCBB-7C6D-43BD-BE29-0E25B4DBA8E4
+            clientType: 3
+    validate:
+        - eq:
+            hr: 0
+            message: 成功
+-
+    name: 创建匿名用户-Type=4(m_site)
+    request:
+        method: post
+        url: account/createAnonymous
+        headers:
+            User-Agent-QS: QSXT
+            Content-Type: application/json
+            Connection: keep-alive
+            Accept: application/json
+            User-Agent: ELearningQSXT/22.12.1 (iPhone; iOS 13.3; Scale/2.00)
+        data:
+            deviceToken: 46E3CCBB-7C6D-43BD-BE29-0E25B4DBA8E4
+            clientType: 4
+    validate:
+        - eq:
+            hr: 0
+            message: 成功
+-
+    name: 创建匿名用户-Type=5(小程序)
+    request:
+        method: post
+        url: account/createAnonymous
+        headers:
+            User-Agent-QS: QSXT
+            Content-Type: application/json
+            Connection: keep-alive
+            Accept: application/json
+            User-Agent: ELearningQSXT/22.12.1 (iPhone; iOS 13.3; Scale/2.00)
+        data:
+            deviceToken: 46E3CCBB-7C6D-43BD-BE29-0E25B4DBA8E4
+            clientType: 5
+    validate:
+        - eq:
+            hr: 0
+            message: 成功
+-
+    name: 创建匿名用户-Type=6(直播客户端)
+    request:
+        method: post
+        url: account/createAnonymous
+        headers:
+            User-Agent-QS: QSXT
+            Content-Type: application/json
+            Connection: keep-alive
+            Accept: application/json
+            User-Agent: ELearningQSXT/22.12.1 (iPhone; iOS 13.3; Scale/2.00)
+        data:
+            deviceToken: 46E3CCBB-7C6D-43BD-BE29-0E25B4DBA8E4
+            clientType: 6
+    validate:
+        - eq:
+            $.hr: 0
+            $.message: 成功
+-
+    name: 创建匿名用户-Type=0(非法)
+    request:
+        method: post
+        url: account/createAnonymous
+        headers:
+            User-Agent-QS: QSXT
+            Content-Type: application/json
+            Connection: keep-alive
+            Accept: application/json
+            User-Agent: ELearningQSXT/22.12.1 (iPhone; iOS 13.3; Scale/2.00)
+        data:
+            deviceToken: 46E3CCBB-7C6D-43BD-BE29-0E25B4DBA8E4
+            clientType: 0
+    validate:
+        - eq:
+            $.hr: -2147463167
+            $.message: 无效的参数
+-
+    name: 创建匿名用户-Type=None(空)
+    request:
+        method: post
+        url: account/createAnonymous
+        headers:
+            User-Agent-QS: QSXT
+            Content-Type: application/json
+            Connection: keep-alive
+            Accept: application/json
+            User-Agent: ELearningQSXT/22.12.1 (iPhone; iOS 13.3; Scale/2.00)
+        data:
+            deviceToken: 46E3CCBB-7C6D-43BD-BE29-0E25B4DBA8E4
+            clientType: 100
+    validate:
+        - eq:
+            $.hr: -2147463167
+            $.message: 无效的参数

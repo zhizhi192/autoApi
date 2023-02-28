@@ -1,0 +1,18 @@
+-
+    name: 获取用户信息
+    request:
+        method: get
+        url: account/info
+        data: None
+        headers:
+            Authorization-QS: ${pxs_token}
+            User-Agent-QS: QSXT
+            Content-Type: application/json
+            Connection: keep-alive
+            Accept: application/json
+            User-Agent: ELearningQSXT/22.12.1 (iPhone; iOS 13.3; Scale/2.00)
+    validate:
+        - eq:
+            $.hr: 0
+            $.message: 成功
+            $.data.displayName: 张三
